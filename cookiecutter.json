@@ -2,6 +2,6 @@
     "app_name": "App",
     "app_slug": "{{ cookiecutter.app_name|lower|replace(' ', '_') }}",
     "author_name": "",
-    "app_prefix": "{{cookiecutter.app_slug}}",
-    "app_tags": ["{{cookiecutter.app_slug}}"]
+    "app_prefix": "{{ cookiecutter.app_slug }}",
+    "app_tags": "{{ cookiecutter.app_slug }}"
 }
