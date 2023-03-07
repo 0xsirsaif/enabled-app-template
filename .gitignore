@@ -118,3 +118,5 @@ generated_async_edgeql.py
 
 # build
 fastapiusers-edgedb-*
+edgedb.toml
+migrations/
