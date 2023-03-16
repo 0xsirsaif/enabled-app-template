@@ -7,5 +7,5 @@ app = APIRouter(tags=["{{cookiecutter.app_tag}}"], prefix="/{{cookiecutter.app_p
 
 @app.get("/")
 async def read_root():
-    return FileResponse("qna_app/frontend/build/index.html")
+    return FileResponse("{{cookiecutter.app_slug}}/frontend/build/index.html")
 
