@@ -32,7 +32,7 @@ export default function Home() {
             <GroupsNav />
           </Box>
           <Box>
-            <h1>"{{ cookiecutter.app_slug }}"</h1>
+            <h1>"{{ cookiecutter.app_name }}"</h1>
           </Box>
         </Box>
       )}
