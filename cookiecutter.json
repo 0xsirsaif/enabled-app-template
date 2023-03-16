@@ -3,5 +3,17 @@
     "app_slug": "{{ cookiecutter.app_name|lower|replace(' ', '_') }}",
     "author_name": "",
     "app_prefix": "{{ cookiecutter.app_slug }}",
-    "app_tag": "{{ cookiecutter.app_slug }}"
+    "app_tag": "{{ cookiecutter.app_slug }}",
+    "_copy_without_render": [
+        "components/*",
+        "config/*",
+        "helpers/*",
+        "public/*",
+        "services/*",
+        "styles/*",
+        "_app.js",
+        "_document.js",
+        "*.json",
+        "*.md"
+    ]
 }
